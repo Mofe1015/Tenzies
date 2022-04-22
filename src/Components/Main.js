@@ -1,13 +1,11 @@
 import React from 'react';
 import '../Styling/Main.css';
-import Die from './Die';
+import Dice from './Dice';
 
 function Main(){
     return(
         <div className='main'>
-            <Die
-                value = '1'
-            />
+            <Dice/>
         </div>
     )
 };
