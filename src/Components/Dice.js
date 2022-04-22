@@ -4,7 +4,7 @@ import '../Styling/Dice.css';
 
 function Die(props){
     return(
-        <div>
+        <div className='die'>
             <h2>
                 {props.value}
             </h2>
