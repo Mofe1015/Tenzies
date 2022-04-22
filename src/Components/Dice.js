@@ -1,11 +1,13 @@
 import React from 'react';
-import '../Styling/Die.css';
+import '../Styling/Dice.css';
 
 
 function Die(props){
     return(
         <div>
-            {props.value}
+            <h2>
+                {props.value}
+            </h2>
         </div>
     )
 };
@@ -30,6 +32,18 @@ function Dice(){
             />
             <Die
                 value = "6"
+            />
+            <Die
+                value = "7"
+            />
+            <Die
+                value = "8"
+            />
+            <Die
+                value = "9"
+            />
+            <Die
+                value = "10"
             />
         </div>
     )
