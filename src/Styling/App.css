@@ -1,0 +1,11 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0B2434;
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow: hidden;
+  height: 100vh;
+}
+
