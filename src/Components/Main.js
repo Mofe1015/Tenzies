@@ -1,10 +1,13 @@
 import React from 'react';
 import '../Styling/Main.css';
+import Die from './Die';
 
 function Main(){
     return(
         <div className='main'>
-            <p>mofe</p>
+            <Die
+                value = '1'
+            />
         </div>
     )
 };

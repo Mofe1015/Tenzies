@@ -1,4 +1,5 @@
 .main{
+    display: flexbox;
     width: 40vw;
     height: 40vw;
     min-width: 400px;
