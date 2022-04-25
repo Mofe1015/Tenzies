@@ -13,6 +13,14 @@ function Die(props){
 };
 
 function Dice(){
+    function allNewDice(){
+        const newDice = []
+         for (let i = 0; i < 10; i++){
+            newDice.push(Math.ceil(Math.random() * 6))
+        }
+        return newDice
+    }
+    console.log(allNewDice())
     return(
         <div className='dice-container'>
             <Die
