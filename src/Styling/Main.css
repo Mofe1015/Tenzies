@@ -1,7 +1,7 @@
 .main{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     width: 40vw;
     height: 40vw;
@@ -12,14 +12,23 @@
 }
 
 .roll-dice{
-    height: 50px;
     width: 100px;
+    height: 50px;
     border: none;
+    color: white;
     cursor: pointer;
-    margin-top: 30px;
+    font-size: 1.2rem;
     border-radius: 6px;
     background-color: #5035FF;
     font-family: 'Karla', sans-serif;
+}
+
+.roll-dice:focus {
+    outline: none;
+}
+
+.roll-dice:active {
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }
 
 @media only screen and (max-width: 700px) {
