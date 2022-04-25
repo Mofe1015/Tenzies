@@ -9,6 +9,7 @@
     min-height: 400px;
     background-color:#F5F5F5 ;
     border-radius: 10px;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .roll-dice{
@@ -21,6 +22,7 @@
     border-radius: 6px;
     background-color: #5035FF;
     font-family: 'Karla', sans-serif;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .roll-dice:focus {

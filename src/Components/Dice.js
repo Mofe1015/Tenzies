@@ -14,7 +14,8 @@ function Die(props){
 
 function Dice(props){
     
-    const diceElement = props.dice.map(die => <Die value={die} />)
+
+    const diceElement = props.dice.map(die => <Die key={die.id} value={die.value}  />)
 
     return(
         <div className='dice-container'>
