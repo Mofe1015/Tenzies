@@ -12,18 +12,9 @@ function Die(props){
     )
 };
 
-function Dice(){
-    const[dice, setDice] = React.useState(allNewDice())
-
-    function allNewDice(){
-        const newDice = []
-         for (let i = 0; i < 10; i++){
-            newDice.push(Math.ceil(Math.random() * 6))
-        }
-        return newDice
-    }
-
-    const diceElement = dice.map(die => <Die value={die} />)
+function Dice(props){
+    
+    const diceElement = props.dice.map(die => <Die value={die} />)
 
     return(
         <div className='dice-container'>

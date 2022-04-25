@@ -3,10 +3,26 @@ import '../Styling/Main.css';
 import Dice from './Dice';
 
 function Main(){
+    const[dice, setDice] = React.useState(allNewDice())
+
+    function allNewDice(){
+        const newDice = []
+         for (let i = 0; i < 10; i++){
+            newDice.push(Math.ceil(Math.random() * 6))
+        }
+        return newDice
+    };
+
+    function rollDice(){
+        setDice(allNewDice())
+    };
+    
     return(
-        <div className='main'>
-            <Dice/>
-        </div>
+        <main className='main'>
+            <Dice dice={dice} />
+            
+            <button onClick={rollDice}>Roll</button>
+        </main>
     )
 };
 
