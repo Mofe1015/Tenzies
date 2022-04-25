@@ -20,8 +20,8 @@ function Main(){
     return(
         <main className='main'>
             <Dice dice={dice} />
-            
-            <button onClick={rollDice}>Roll</button>
+
+            <button className='roll-dice' onClick={rollDice}>Roll</button>
         </main>
     )
 };

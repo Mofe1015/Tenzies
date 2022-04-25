@@ -11,6 +11,17 @@
     border-radius: 10px;
 }
 
+.roll-dice{
+    height: 50px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 6px;
+    background-color: #5035FF;
+    font-family: 'Karla', sans-serif;
+}
+
 @media only screen and (max-width: 700px) {
     .main{
         min-width: 100px;
