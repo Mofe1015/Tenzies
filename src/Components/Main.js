@@ -6,6 +6,12 @@ import {nanoid} from 'nanoid'
 
 function Main(){
     const[dice, setDice] = React.useState(allNewDice())
+    const[tenzies, setTenzies] = React.useState(false)
+
+    React.useEffect(() => {
+        console.log('changed');
+    }, [dice]);
+
 
     function allNewDice(){
         const newDice = []
