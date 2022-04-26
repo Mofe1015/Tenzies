@@ -3,6 +3,7 @@ import '../Styling/Dice.css';
 
 
 function Die(props){
+    
     function holdDice(event){
         let clickedDie = (event.target.id)      
         props.setDice(() => {
@@ -34,7 +35,6 @@ function Die(props){
 
 function Dice(props){
     
-
     const diceElement = props.dice.map(die => (
         <Die 
             key={die.id} 
