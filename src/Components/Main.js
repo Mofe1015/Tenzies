@@ -12,7 +12,7 @@ function Main(){
          for (let i = 0; i < 10; i++){
             newDice.push({
                 value: Math.ceil(Math.random() * 6),
-                isHeld: true,
+                isHeld: false,
                 id: nanoid()
             })
         }
@@ -25,8 +25,7 @@ function Main(){
     
     return(
         <main className='main'>
-            <Dice dice={dice}/>
-
+            <Dice dice={dice} setDice={setDice}/>
             <button className='roll-dice' onClick={rollDice}>Roll</button>
         </main>
     )
