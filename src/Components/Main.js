@@ -32,6 +32,10 @@ function Main(){
         return newDice
     };
 
+    function newGame(){
+        
+    }
+
     function rollDice(){
         setDice(() => {
             return(
@@ -44,13 +48,20 @@ function Main(){
         })
     };
     
+    function wonDisplay(){
+        document.getElementById('instructions').textContent = 'YOU WON!!'
+        return(
+            <Confetti/>
+        )
+    }
+
     return(
         <main className='main'>
-            {tenzies ? <Confetti/> : <></>}
+            {tenzies ? wonDisplay() : <></>}
             <h1 className="title">Tenzies</h1>
-            <p className="instructions">Roll until all dice are the same. Click each die to freeze it at its current value between rolls.</p>
+            <p className="instructions" id='instructions'>Roll until all dice are the same. Click each die to freeze it at its current value between rolls.</p>
             <Dice dice={dice} setDice={setDice}/>
-            <button className='roll-dice' onClick={rollDice}>Roll</button>
+            <button className='roll-dice' onClick={tenzies ? newGame : rollDice}>{tenzies ? "New Game" : "Roll"}</button>
             
         </main>
     )
