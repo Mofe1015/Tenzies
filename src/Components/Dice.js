@@ -3,8 +3,11 @@ import '../Styling/Dice.css';
 
 
 function Die(props){
+    const dieStyles = {
+        backgroundColor: props.isHeld ? "#59E391" : "white"
+    }
     return(
-        <div className='die'>
+        <div className='die' style={dieStyles}>
             <h2>
                 {props.value}
             </h2>
@@ -15,7 +18,7 @@ function Die(props){
 function Dice(props){
     
 
-    const diceElement = props.dice.map(die => <Die key={die.id} value={die.value}  />)
+    const diceElement = props.dice.map(die => <Die key={die.id} value={die.value} isHeld={die.isHeld} />)
 
     return(
         <div className='dice-container'>
