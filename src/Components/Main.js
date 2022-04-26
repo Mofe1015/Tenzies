@@ -20,7 +20,15 @@ function Main(){
     };
 
     function rollDice(){
-        setDice(allNewDice())
+        setDice(() => {
+            return(
+                dice.map(die => {
+                    return die.isHeld ? 
+                    die : 
+                    {...die, value: Math.ceil(Math.random() * 6)}
+                })
+            )
+        })
     };
     
     return(
