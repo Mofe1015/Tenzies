@@ -3,21 +3,23 @@ import '../Styling/Dice.css';
 
 
 function Die(props){
-    
+    let tenzies = props.tenzies
     function holdDice(event){
-        let clickedDie = (event.target.id)      
-        props.setDice(() => {
-            return(
-                props.dice.map(die => {
-                    return die.id === clickedDie ? 
-                    {...die, isHeld: !die.isHeld} : 
-                    die
-                })
-            )
-        })
-        
-       
+        if(!tenzies){
+            let clickedDie = (event.target.id)      
+            props.setDice(() => {
+                return(
+                    props.dice.map(die => {
+                        return die.id === clickedDie ? 
+                        {...die, isHeld: !die.isHeld} : 
+                        die
+                    })
+                )
+            })
+        }
+            
     }
+
 
     const dieStyles = {
         backgroundColor: props.isHeld ? "#59E391" : "white",
@@ -43,6 +45,7 @@ function Dice(props){
             isHeld={die.isHeld} 
             dice = {props.dice} 
             setDice = {props.setDice}
+            tenzies = {props.tenzies}
         />))
 
     return(
