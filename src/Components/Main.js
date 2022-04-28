@@ -33,7 +33,7 @@ function Main(){
     };
 
     function newGame(){
-        
+        setTenzies(false)
         setDice(allNewDice())
     }
 
