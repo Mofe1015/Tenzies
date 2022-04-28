@@ -56,7 +56,7 @@ function Main(){
     }
 
     return(
-        <main className='main'>
+        <main className='main'> 
             {tenzies ? wonDisplay() : <></>}
             <h1 className="title">Tenzies</h1>
             <p className="instructions" id='instructions'>Roll until all dice are the same. Click each die to freeze it at its current value between rolls.</p>
