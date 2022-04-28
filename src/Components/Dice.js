@@ -3,6 +3,7 @@ import '../Styling/Dice.css';
 
 
 function Die(props){
+    
     let tenzies = props.tenzies
     function holdDice(event){
         if(!tenzies){
@@ -19,7 +20,6 @@ function Die(props){
         }
             
     }
-
 
     const dieStyles = {
         backgroundColor: props.isHeld ? "#59E391" : "white",

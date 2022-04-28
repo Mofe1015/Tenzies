@@ -50,13 +50,13 @@ function Main(){
     };
     
     const wonText = 'YOU WON!!'
-    const instructions = 'Roll until all dice are the same. Click each die to freeze it at its current value between rolls.'
+    const instructions = 'Roll until all dice are the same. Click each die to freeze it at its current value between rolls'
     
     return(
         <main className='main'> 
             {tenzies ? <Confetti/> : <></>}
             <h1 className="title">Tenzies</h1>
-            <p className="instructions" id='instructions'>{tenzies ? wonText : instructions}</p>
+            <p className="instructions">{tenzies ? wonText : instructions}</p>
             <Dice dice={dice} setDice={setDice} tenzies={tenzies}/>
             <button className='roll-dice' onClick={tenzies ? newGame : rollDice}>{tenzies ? "New Game" : "Roll"}</button>
         </main>
