@@ -34,6 +34,7 @@ function Main(){
 
     function newGame(){
         
+        setDice(allNewDice())
     }
 
     function rollDice(){
