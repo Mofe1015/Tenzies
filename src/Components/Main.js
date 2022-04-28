@@ -55,12 +55,13 @@ function Main(){
             <Confetti/>
         )
     }
-
+    const wonText = 'YOU WON!!'
+    const instructions = 'Roll until all dice are the same. Click each die to freeze it at its current value between rolls.'
     return(
         <main className='main'> 
             {tenzies ? wonDisplay() : <></>}
             <h1 className="title">Tenzies</h1>
-            <p className="instructions" id='instructions'>Roll until all dice are the same. Click each die to freeze it at its current value between rolls.</p>
+            <p className="instructions" id='instructions'>{tenzies ? wonText : instructions}</p>
             <Dice dice={dice} setDice={setDice}/>
             <button className='roll-dice' onClick={tenzies ? newGame : rollDice}>{tenzies ? "New Game" : "Roll"}</button>
             
