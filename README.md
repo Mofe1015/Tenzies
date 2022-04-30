@@ -4,6 +4,9 @@
 
 ## VIDEO PREVIEW!!
 
+https://user-images.githubusercontent.com/70088500/166085815-1bf4ece5-47e8-485d-9e36-f992bbbfdd4c.mp4
+
+
 ## Check out my latest project >> [ Tenzies.com](https://Mofe1015.github.io/Tenzies)
 
 This is a fully functional Tenzies game made with REACT, JAVASCRIPT, CSS, HTML.
@@ -39,3 +42,6 @@ If you encounter any bugs or are facing any issues with the code, please don't h
 email : mofeomotosho@gmail.com
 
 ### MOFE
+
+
+
