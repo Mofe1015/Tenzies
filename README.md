@@ -1,11 +1,8 @@
 # Make.Meme
 
-<img src="gitimages/tenziesimg1.png" width="100%" margin-bottom = "40px" >
-<img src="gitimages/tenziesimg.jpeg" width="30%" margin-bottom = "40px" >
+<img src="gitimages/tenziesimgall.png" width="100%" margin-bottom = "40px" >
 
 ## VIDEO PREVIEW!!
-
-https://user-images.githubusercontent.com/70088500/162045014-406af552-bd1a-49ff-8700-7f63a11369b0.mov
 
 ## Check out my latest project >> [ Tenzies.com](https://Mofe1015.github.io/Tenzies)
 
