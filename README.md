@@ -7,13 +7,14 @@
 
 https://user-images.githubusercontent.com/70088500/162045014-406af552-bd1a-49ff-8700-7f63a11369b0.mov
 
-## Check out my latest project >> [ Meme Maker WEBAPP](https://Mofe1015.github.io/Make.meme)
+## Check out my latest project >> [ Tenzies.com](https://Mofe1015.github.io/Tenzies)
 
-This is a fully functional meme making web app made with REACT, JAVASCRIPT, CSS, HTML.
-implementing the basic workings of REACT with features like state, effect and api calls.
-The meme images are called from an API and text inputs have resize, drag, font-type and font-color changing functionality.
+This is a fully functional Tenzies game made with REACT, JAVASCRIPT, CSS, HTML.
+implementing the basic workings of REACT with features like state, effect
 
-So far, The web app is mobile responsive, certain features don't work on mobile but will be implented soon .
+With futures like freezing dice, and stsrting a new game
+
+So far, The web app fully is mobile responsive .
 
 ## NOTICE!!
 
@@ -22,7 +23,7 @@ So far, The web app is mobile responsive, certain features don't work on mobile 
 ## Design ❄👌
 
 - Front End: HTML, CSS, Vanilla JS, REACTjs
-- Back End: JavaScript, API
+- Back End: JavaScript
 
 ## Building 🏢🚀
 
