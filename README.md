@@ -1,7 +1,7 @@
 # Make.Meme
 
 <img src="gitimages/tenziesimg1.png" width="100%" margin-bottom = "40px" >
-<img src="gitimages/tenziesimg.jpeg" width="50%" margin-bottom = "40px" >
+<img src="gitimages/tenziesimg.jpeg" width="30%" margin-bottom = "40px" >
 
 ## VIDEO PREVIEW!!
 
