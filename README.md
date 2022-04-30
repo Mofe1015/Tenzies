@@ -4,7 +4,7 @@
 
 ## VIDEO PREVIEW!!
 
-https://user-images.githubusercontent.com/70088500/166085815-1bf4ece5-47e8-485d-9e36-f992bbbfdd4c.mp4
+https://user-images.githubusercontent.com/70088500/166085971-75379e4a-2327-44af-8764-f3ba8338d979.mp4
 
 
 ## Check out my latest project >> [ Tenzies.com](https://Mofe1015.github.io/Tenzies)
@@ -42,6 +42,9 @@ If you encounter any bugs or are facing any issues with the code, please don't h
 email : mofeomotosho@gmail.com
 
 ### MOFE
+
+
+
 
 
 
