@@ -9,7 +9,7 @@ https://user-images.githubusercontent.com/70088500/166085971-75379e4a-2327-44af-
 ## Check out my latest project >> [ Tenzies.com](https://Mofe1015.github.io/Tenzies)
 
 This is a fully functional Tenzies game made with REACT, JAVASCRIPT, CSS, HTML.
-implementing the basic workings of REACT with features like state, effect
+implementing the basic workings of REACT with features like state and effect
 
 With futures like freezing dice, and stsrting a new game
 
