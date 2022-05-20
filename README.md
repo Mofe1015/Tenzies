@@ -40,4 +40,6 @@ If you encounter any bugs or are facing any issues with the code, please don't h
 
 email : mofeomotosho@gmail.com
 
+https://Mofe1015.github.io/Tenzies
+
 ### MOFE
